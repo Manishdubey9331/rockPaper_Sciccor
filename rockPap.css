@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9dcfe8fa;
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 1, 30);
+    
+    
+}
+#namehead{
+    color: bisque;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 10px;
+
+}
+.images
+{
+    margin-top:80px ;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+#rock { 
+   margin-right: 55px;
+}
+#scissor {
+    margin-left: 55px;   
+ }
+ .score{
+    display: flex;
+   justify-content: center;
+   padding: 20px;
+   font-size: xx-large;
+   margin: 50px;
+ }
+ #userCount{
+
+float: right;
+margin-right: 100px;
+ }
+ #compCount{
+    
+float: left;
+margin-right: 10px;
+ 
+ }
+ #playgame1{
+    display: flex;
+    justify-content: center;
+    
+ }
+ #playgame{
+   
+    padding: 15;
+    margin: 20px;
+    font-size: xx-large;
+    size: 50px;
+    background-color: coral;
+ }
+ #btn1{
+    display: flex;
+    justify-content:center;
+
+ }
+ #btn{
+    size:25px ;
+    cursor: pointer;
+    font-size: larger;
+    background-color: rgb(222, 48, 123);
+ }
